@@ -1,0 +1,69 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scenes/skill.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/pics/background2.jpg" type="Texture" id=2]
+[ext_resource path="res://scenes/interface.gd" type="Script" id=3]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2( 2800, 2800 )
+
+[node name="background" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+scale = Vector2( 7, 7 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Ralts" parent="." instance=ExtResource( 1 )]
+position = Vector2( 250, 500 )
+
+[node name="Kirlia" parent="." instance=ExtResource( 1 )]
+position = Vector2( 450, 350 )
+
+[node name="Gardevoir" parent="." instance=ExtResource( 1 )]
+position = Vector2( 650, 200 )
+
+[node name="Gallade" parent="." instance=ExtResource( 1 )]
+position = Vector2( 650, 500 )
+
+[node name="Eevee" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1250, 350 )
+
+[node name="Vaporeon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1050, 200 )
+
+[node name="Jolteon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 850, 350 )
+
+[node name="Flareon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1050, 500 )
+
+[node name="Espeon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1250, 650 )
+
+[node name="Umbreon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1450, 500 )
+
+[node name="Leafeon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1650, 350 )
+
+[node name="Glaceon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1450, 200 )
+
+[node name="Sylveon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1250, 50 )
+
+[node name="viewport" type="Camera2D" parent="."]
+current = true
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = true
+drag_margin_left = 0.8
+drag_margin_top = 0.8
+drag_margin_right = 0.8
+drag_margin_bottom = 0.8

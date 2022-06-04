@@ -1,0 +1,189 @@
+{
+  "Stats": {
+    "Ralts": {
+      "Move": "psychic 1",
+      "Ability": "Trace"
+    },
+    "Kirlia": {
+      "Move": "psychic 2",
+      "Ability": "Trace"
+    },
+    "Gardevoir": {
+      "Move": "psychic 3",
+      "Ability": "Synchronize"
+    },
+    "Gallade": {
+      "Move": "fighting 2",
+      "Ability": "Steadfast"
+    }
+  },
+  "Unlock": {
+    "Ralts": {
+      "Items": {
+        "psyrock": 1
+      },
+      "Level": 1,
+      "Connection": [],
+      "Position": [
+        250,
+        500
+      ]
+    },
+    "Kirlia": {
+      "Items": {
+        "psyrock": 2
+      },
+      "Level": 20,
+      "Connection": [
+        "Ralts"
+      ],
+      "Position": [
+        450,
+        350
+      ]
+    },
+    "Gardevoir": {
+      "Items": {
+        "psyrock": 3,
+        "emblem": 1
+      },
+      "Level": 30,
+      "Connection": [
+        "Kirlia"
+      ],
+      "Position": [
+        650,
+        200
+      ]
+    },
+    "Gallade": {
+      "Items": {
+        "psyrock": 1,
+        "dawn stone": 1
+      },
+      "Level": 30,
+      "Connection": [
+        "Kirlia"
+      ],
+      "Position": [
+        650,
+        500
+      ]
+    },
+    "Eevee": {
+      "Items": {
+        "eevee fur": 1
+      },
+      "Level": 1,
+      "Connection": [],
+      "Position": [
+        1250,
+        350
+      ]
+    },
+    "Vaporeon": {
+      "Items": {
+        "water stone": 1
+      },
+      "Level": 10,
+      "Connection": [
+        "Eevee"
+      ],
+      "Position": [
+        1050,
+        200
+      ]
+    },
+    "Jolteon": {
+      "Items": {
+        "thunder stone": 1
+      },
+      "Level": 10,
+      "Connection": [
+        "Eevee"
+      ],
+      "Position": [
+        850,
+        350
+      ]
+    },
+    "Flareon": {
+      "Items": {
+        "fire stone": 1
+      },
+      "Level": 10,
+      "Connection": [
+        "Eevee"
+      ],
+      "Position": [
+        1050,
+        500
+      ]
+    },
+    "Espeon": {
+      "Items": {
+        "dawn stone": 1
+      },
+      "Level": 15,
+      "Connection": [
+        "Eevee"
+      ],
+      "Position": [
+        1250,
+        650
+      ]
+    },
+    "Umbreon": {
+      "Items": {
+        "dusk stone": 1
+      },
+      "Level": 15,
+      "Connection": [
+        "Eevee"
+      ],
+      "Position": [
+        1450,
+        500
+      ]
+    },
+    "Leafeon": {
+      "Items": {
+        "leaf stone": 1
+      },
+      "Level": 20,
+      "Connection": [
+        "Eevee"
+      ],
+      "Position": [
+        1650,
+        350
+      ]
+    },
+    "Glaceon": {
+      "Items": {
+        "ice stone": 1
+      },
+      "Level": 20,
+      "Connection": [
+        "Eevee"
+      ],
+      "Position": [
+        1450,
+        200
+      ]
+    },
+    "Sylveon": {
+      "Items": {
+        "ribbon": 1
+      },
+      "Level": 99,
+      "Connection": [
+        "Eevee"
+      ],
+      "Position": [
+        1250,
+        50
+      ]
+    }
+  }
+}

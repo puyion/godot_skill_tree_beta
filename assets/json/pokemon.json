@@ -1,0 +1,74 @@
+{
+  "Stats": {
+    "Ralts": {
+      "Move": "psychic 1",
+      "Ability": "Trace"
+    },
+    "Kirlia": {
+      "Move": "psychic 2",
+      "Ability": "Trace"
+    },
+    "Gardevoir": {
+      "Move": "psychic 3",
+      "Ability": "Synchronize"
+    },
+    "Gallade": {
+      "Move": "fighting 2",
+      "Ability": "Steadfast"
+    }
+  },
+  "Unlock": {
+    "Ralts": {
+      "Items": {
+        "psyrock": 1
+      },
+      "Level": 1,
+      "Connection": [],
+      "Position": [
+        250,
+        500
+      ]
+    },
+    "Kirlia": {
+      "Items": {
+        "psyrock": 2
+      },
+      "Level": 20,
+      "Connection": [
+        "Ralts"
+      ],
+      "Position": [
+        450,
+        350
+      ]
+    },
+    "Gardevoir": {
+      "Items": {
+        "psyrock": 3,
+        "emblem": 1
+      },
+      "Level": 30,
+      "Connection": [
+        "Kirlia"
+      ],
+      "Position": [
+        650,
+        200
+      ]
+    },
+    "Gallade": {
+      "Items": {
+        "psyrock": 1,
+        "dawn stone": 1
+      },
+      "Level": 30,
+      "Connection": [
+        "Kirlia"
+      ],
+      "Position": [
+        650,
+        500
+      ]
+    }
+  }
+}
