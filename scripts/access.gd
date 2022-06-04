@@ -3,7 +3,7 @@ extends Node
 
 var pokemon = {}
 
-var player = {"Level": 20,
+var player = {"Level": 30,
 			"Items": 
 				{"psyrock": 2,
 				"emblem": 1,

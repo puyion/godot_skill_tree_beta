@@ -50,6 +50,7 @@ func conditionlock():
 			itemlock = false
 		else:
 			itemlock = true
+			break
 			
 	#checks connection requirement
 	if str(unlockdata["Connection"]) == "[]":
